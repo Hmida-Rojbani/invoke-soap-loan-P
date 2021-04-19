@@ -72,8 +72,8 @@
 	</wsdl:binding>
 	<wsdl:service name="LoanEligebiltyIndicatorService">
 		<wsdl:port binding="tns:LoanEligebiltyIndicatorSoap11"
-			name="LoanEligebiltyIndicatorSoap11">
-			<soap:address location="http://localhost:8080/ws" />
+			name="LoanEligebiltyIndicatorSoap11" location="http://localhost:8080/ws">
+			<soap:address/>
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
